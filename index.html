@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nandhini | Web Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-theme">
+  
+  <div id="particles-js"></div>
+
+  <header>
+    <div class="logo">Nandhini</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hello, I’m Nandhini</h1>
+    <h2>Creative Web Developer</h2>
+    <p>Designing beautiful web experiences and solving real-world problems through code.</p>
+    <button onclick="scrollToSection('about')">View My Work</button>
+  </section>
+
+  <section id="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+      <img src="assets/photo.jpg" alt="Nandhini's Photo" class="profile-img" />
+  <div class="about-text">
+      I’m a developer passionate about design and code. I’ve strengthened my skills in building scalable and high-performing solutions. With a strong commitment to learning and innovation, I develop impactful, user-focused solutions tailored to real-world needs.
+    </div>
+  </div>
+</section>
+
+  
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">C++</div>
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">Python</div>
+      <div class="card">SQL</div>
+    </div>
+  </section>
+
+ 
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>YouTube Clone</h3>
+        <p>Developed a fully responsive YouTube clone and implemented key features that replicate the original platform.</p>
+      </div>
+      <div class="card">
+        <h3>Meadow Suites</h3>
+        <p>Engineered and executed a cutting-edge RESTful API for a luxury hotel, enabling guests to seamlessly book rooms.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm" class="contact-form">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Your Email" required />
+    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+    <p id="form-status"></p>
+  </form>
+</section>
+
+
+  <section id="resume">
+    <div class="res">
+      <a href="assets/resume.pdf" download class="resume-btn">📄RESUME</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Nandhini | All Rights Reserved</p>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
